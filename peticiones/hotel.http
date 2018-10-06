@@ -1,0 +1,12 @@
+http://localhost:3000/hoteles
+###
+POST http://localhost:3000/hoteles HTTP/1.1
+content-type: application/json
+
+{
+    "nombre": "Hotel santani pibes",
+    "direccion": "Km 9",
+    "latitud": "123",
+    "longitud": "456",
+    "imagenUrl": "url..."
+}
